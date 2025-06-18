@@ -37,8 +37,8 @@ const App = () => {
       <section id="home" className="hero">
         <div className="hero-content">
           <div className={`hero-text ${isVisible ? 'fade-in-up' : ''}`}>
-            <h1>Powering the Future of Electric Transportation</h1>
-            <p>Professional DC EV Charger Service & Maintenance Solutions</p>
+            <h1>Powering the future of electric transportation</h1>
+            <p>Professional DC EV charger service & maintenance solutions</p>
             <button 
               className="cta-button"
               onClick={() => scrollToSection('services')}
