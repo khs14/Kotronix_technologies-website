@@ -84,8 +84,8 @@ const App = () => {
                 <div className="stat-label">Guns Serviced</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">99.8%</div>
-                <div className="stat-label">Uptime Rate</div>
+                <div className="stat-number">92%</div>
+                <div className="stat-label">Charger Issues Resolved On-Site</div>
               </div>
               <div className="stat-item">
                 <div className="stat-number">24/7</div>
