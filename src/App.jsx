@@ -183,7 +183,7 @@ const App = () => {
                 <Mail className="contact-icon" />
                 <div>
                   <h4>Email</h4>
-                  <p>kotronix.technologies@gmail.com</p>
+                  <p>kaustubh@kotronixtechnologies.com</p>
                 </div>
               </div>
               
@@ -210,7 +210,7 @@ const App = () => {
                 <h3>Ready to Get Started?</h3>
                 <p>Contact us today for reliable DC EV charger maintenance services. Our expert team is ready to keep your charging infrastructure running at peak performance.</p>
                 <div className="contact-buttons">
-                  <a href="mailto:kotronix.technologies@gmail.com" className="contact-btn primary">
+                  <a href="mailto:kaustubh@kotronixtechnologies.com" className="contact-btn primary">
                     <Mail className="btn-icon" />
                     Email Us
                   </a>
@@ -244,7 +244,7 @@ const App = () => {
             </div>
             <div className="footer-section">
               <h4>Contact</h4>
-              <p>kotronix.technologies@gmail.com</p>
+              <p>kaustubh@kotronixtechnologies.com</p>
               <p>+91 9205004891</p>
             </div>
           </div>
