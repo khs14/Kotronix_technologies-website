@@ -88,8 +88,7 @@ const App = () => {
                 <div className="stat-label">Charger Issues Resolved On-Site</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">24/7</div>
-                <div className="stat-label">Support Available</div>
+                <div className="stat-label">Coverage Across Multiple States</div>
               </div>
             </div>
           </div>
