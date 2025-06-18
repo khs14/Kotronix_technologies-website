@@ -88,7 +88,7 @@ const App = () => {
                 <div className="stat-label">Charger Issues Resolved On-Site</div>
               </div>
               <div className="stat-item">
-                <div className="stat-label">Coverage Across Multiple States</div>
+                <div className="stat-label">Servicing Government EV Depots with Proven Reliability</div>
               </div>
             </div>
           </div>
