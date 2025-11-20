@@ -38,7 +38,6 @@ const App = () => {
         <div className="hero-content">
           <div className={`hero-text ${isVisible ? 'fade-in-up' : ''}`}>
             <h1>Powering the Future of Electric Transportation</h1>
-            <p className="tagline-pulse">The Harmonized Pulse of Creation</p>
             <p>Professional DC EV Charger Service & Maintenance Solutions</p>
             <button 
               className="cta-button"
@@ -85,12 +84,11 @@ const App = () => {
                 <div className="stat-label">Guns Serviced</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">99.8%</div>
-                <div className="stat-label">Uptime Rate</div>
+                <div className="stat-number">92%</div>
+                <div className="stat-label">Charger Issues Resolved On-Site</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">24/7</div>
-                <div className="stat-label">Support Available</div>
+                <div className="stat-label">Servicing Government EV Depots with Proven Reliability</div>
               </div>
             </div>
           </div>
@@ -184,7 +182,7 @@ const App = () => {
                 <Mail className="contact-icon" />
                 <div>
                   <h4>Email</h4>
-                  <p>kotronix.technologies@gmail.com</p>
+                  <p>kaustubh@kotronixtechnologies.com</p>
                 </div>
               </div>
               
@@ -211,7 +209,7 @@ const App = () => {
                 <h3>Ready to Get Started?</h3>
                 <p>Contact us today for reliable DC EV charger maintenance services. Our expert team is ready to keep your charging infrastructure running at peak performance.</p>
                 <div className="contact-buttons">
-                  <a href="mailto:kotronix.technologies@gmail.com" className="contact-btn primary">
+                  <a href="mailto:kaustubh@kotronixtechnologies.com" className="contact-btn primary">
                     <Mail className="btn-icon" />
                     Email Us
                   </a>
@@ -245,7 +243,7 @@ const App = () => {
             </div>
             <div className="footer-section">
               <h4>Contact</h4>
-              <p>kotronix.technologies@gmail.com</p>
+              <p>kaustubh@kotronixtechnologies.com</p>
               <p>+91 9205004891</p>
             </div>
           </div>
