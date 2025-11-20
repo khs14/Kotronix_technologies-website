@@ -38,6 +38,7 @@ const App = () => {
         <div className="hero-content">
           <div className={`hero-text ${isVisible ? 'fade-in-up' : ''}`}>
             <h1>Powering the Future of Electric Transportation</h1>
+            <p className="tagline-pulse">The Harmonized Pulse of Creation</p>
             <p>Professional DC EV Charger Service & Maintenance Solutions</p>
             <button 
               className="cta-button"
@@ -146,7 +147,6 @@ const App = () => {
               <p>Regular inspections, cleaning, and component testing to ensure optimal performance and prevent costly breakdowns.</p>
             </div>
             
-    
             <div className="service-card fade-in-right">
               <h3>System Upgrades</h3>
               <p>Hardware and software upgrades to improve charging speeds, efficiency, and user experience.</p>

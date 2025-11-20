@@ -74,6 +74,35 @@ section {
   }
 }
 
+@keyframes textPulse {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 0 0 10px rgba(2, 33, 121, 0.3);
+  }
+  50% {
+    transform: scale(1.03);
+    text-shadow: 0 0 20px rgba(2, 33, 121, 0.5), 0 0 30px rgba(13, 79, 184, 0.3);
+  }
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.03);
+  }
+  80% {
+    transform: scale(1);
+  }
+}
+
 .fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
 }
@@ -209,6 +238,20 @@ section {
   font-size: 1.3rem;
   color: #666;
   margin-bottom: 2.5rem;
+}
+
+.tagline-pulse {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  color: #022179 !important;
+  margin-bottom: 1.5rem !important;
+  animation: heartbeat 14s infinite ease-in-out;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #022179, #0d4fb8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .cta-button {
@@ -650,6 +693,10 @@ section {
   
   .hero-text p {
     font-size: 1.1rem;
+  }
+  
+  .tagline-pulse {
+    font-size: 1.3rem !important;
   }
   
   .charging-station {
